@@ -1,1 +1,95 @@
-/*# sourceMappingURL=styles.css.map */
+/* *,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+} */
+.wrapper {
+  max-width: 1236px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  height: 80px;
+  line-height: 19px;
+}
+
+.header__left {
+  margin-left: -50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__text {
+  padding-right: 16px;
+  font-weight: 700;
+}
+
+.navbar__item {
+  padding-right: 64px;
+  padding-left: 20px;
+}
+
+.header__right {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  width: 100%;
+}
+
+.button-container {
+  padding-left: 24px;
+  flex: 1 1 117px;
+}
+
+.sign-in {
+  text-align: center;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  height: 51px;
+  max-width: 93px;
+}/*# sourceMappingURL=styles.css.map */
