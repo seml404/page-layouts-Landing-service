@@ -1,0 +1,12 @@
+@import "./nullstyles";
+
+.wrapper {
+  min-width: 1236px;
+  margin: 0 auto;
+}
+
+// header
+
+.header .wrapper {
+  display: flex;
+}
