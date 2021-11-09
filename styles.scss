@@ -60,17 +60,18 @@ body {
 }
 
 .button-container {
-  padding-left: 24px;
-  flex: 1 1 117px;
+  flex: 0 0 93px;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
 }
 
 .sign-in {
-  text-align: center;
-  display: block;
-  background-color: rgba(0, 0, 0, 0.06);
-  border-radius: 8px;
   text-decoration: none;
   color: black;
-  height: 51px;
-  max-width: 93px;
+  font-size: 16px;
+  line-height: 19px;
 }
